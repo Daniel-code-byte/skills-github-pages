@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 5;
+    padding: 5;
+    background-image: url(image/pic\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #973b3b;
+}
+.box {
+    width: 100%;
+    margin: 0%;
+    overflow: hidden;
+}
+header {
+    background-image: url(image/pic\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #2c12d2;
+    padding: 20px ;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 10;
+}
+nav ul li {
+    display: inline;
+    margin:20px;
+}
+nav ul li a {
+    color: #3a3a5c;
+    text-decoration: none;
+}
+.main {
+    background-image: url(image/pic\ 3.zip);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    background: #1f04ef;
+    color: #f4f5f6;
+    padding: 10px 20px;
+    text-decoration: solid;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.features, .Reviews, .apply {
+    padding: 50px;
+    text-align: center;
+}
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 10px black;
+    border-radius: 55px;
+}
+.Reviews-coner{
+    background-color: white;
+    padding: 22px;
+    text-align: center;
+    width: 62%;
+    margin: 60 px auto;
+    border-radius: 12px;
+    box-shadow: black;
+}
+.Reviews-text{
+    font-size: 17px;
+    font-style: italic;
+    color: black;
+}
+.Reviews-sayer{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.Reviews{
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px black;
+    border-radius: 75px;
+}
+.why-choose-fast-loan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.why-choose-fast-loan .content {
+    flex: 1;
+    max-width: 40%;
+}
+
+.why-choose-fast-loan .content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #8a5555;
+    margin-bottom: 10px;
+}
+
+.why-choose-fast-loan .content p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.why-choose-fast-loan .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-fast-loan .content ul li {
+    font-size: 15px;
+    color: #6e4e4e;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.why-choose-fast-loan .content ul li::before {
+    content: "✔";
+    color: #007BFF;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.why-choose-fast-loan .image-placeholder {
+    flex: 1;
+    max-width: 35%;
+    height: 300px; 
+    background-color: #ddd; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+    .why-choose-fast-loan {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why-choose-fast-loan .content {
+        max-width: 100%;
+    }
+
+    .why-choose-fast-loan .image-placeholder {
+        max-width: 100%;
+        height: 250px;
+    }
+}
+footer {
+    background: rgb(135, 37, 37);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
